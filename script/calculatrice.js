@@ -16,7 +16,7 @@ $(document).ready(function () {
             string = "";
             input.val(string);
         } else if (value === 'DEL') {
-            string = string.substring(0, string.innerHTML - 1);
+            string = string.substring(0, string.length - 1);
             input.val(string);
         } else {
             string += value;
