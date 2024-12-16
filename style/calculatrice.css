@@ -5,7 +5,6 @@ body {
 }
 
 #saisie {
-    height: 13vh;
     display: block;
     width: 100%;
     padding: .375rem .75rem;
@@ -14,7 +13,6 @@ body {
     line-height: 1.5;
     appearance: none;
     border: none;
-    /* border-radius: 3%; */
     outline: 0;
     cursor: none;
 }
@@ -34,6 +32,12 @@ div {
 
 .but-num:hover {
     background-color: black;
+}
+
+@media screen and (max-width: 1024px) {
+    #content {
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 768px) {
