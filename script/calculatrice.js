@@ -3,7 +3,6 @@ $(document).ready(function () {
     let btn = $('button');
 
     let string = '';
-    // const arr = Array.from(btn);
 
     btn.on('click', function (e) {
         let value = e.target.innerHTML;
